@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--
+   New Perspectives on HTML and XHTML
+   Tutorial 2
+   Case Problem 3
+
+   Diamond Health Club Membership Options
+   Author: 
+   Date: 
+
+   Filename:         members.htm
+   Supporting files: diamond.jpg
+-->
+
+<title>Diamond Health Club Membership</title>
+<link href="../assets/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="wrapper">
+  <div class="centering" id="header"><img src="../assets/diamond.jpg" alt="Diamond Health Club" /></div>
+
+  
+  <div class="centering" id="nav">
+    <a href="../index.html">Home</a> &nbsp;&nbsp;&#9830;&nbsp;&nbsp;<a href="classes.html">Classes</a> &nbsp;&nbsp;&#9830;&nbsp;&nbsp;<a href="membership.html">Memberships</a> &nbsp;&nbsp;&#9830;&nbsp;&nbsp;<a href="new_club.html">New Club</a> &nbsp;&nbsp;&#9830;&nbsp;<a href="http://www.fitnessexchange.com/" target="_blank">&nbsp;Equipment Sales</a> &nbsp;&nbsp;&#9830;&nbsp;&nbsp;
+    <a href="../index.html#fac">Facilities</a> &nbsp;&nbsp;&#9830;&nbsp;&nbsp;
+    <a href="../index.html#sta">Staff</a> &nbsp;&nbsp;&#9830;&nbsp;&nbsp;
+  <a href="../index.html#hou">Hours</a> &nbsp;&nbsp;&#9830;&nbsp;&nbsp; <a href="contact_us.html">Contact Us</a> &#9830;&nbsp;&nbsp; <a href="../../../index.html">Main</a></div>
+
+  
+  <h1>Membership Options</h1>
+  
+  <p>Diamond Health Club offers a variety of membership
+    programs, including one sure to meet your specific
+    needs and budget. Pick up a membership form at the club or 
+    e-mail Ron Chi to request one.<br />
+    <br />
+    <br />
+  </p>
+  <form id="form1" name="form1" method="post" action="">
+    <table width="782" border="0" align="center">
+      <tr>
+        <td width="178">Title</td>
+        <td width="594"><label for="title"></label>
+          <select name="title" id="title">
+            <option selected="selected"></option>
+            <option>Mr.</option>
+            <option>Ms.</option>
+            <option>Mrs.</option>
+            <option>Dr.</option>
+            <option>Rev.</option>
+          </select>          
+        <label for="first_name"></label></td>
+      </tr>
+      <tr>
+        <td>*First Name</td>
+        <td><label for="first_name2"></label>
+        <input name="first_name" type="text" id="first_name2" size="50" maxlength="30" />          <label for="middle_name"></label></td>
+      </tr>
+      <tr>
+        <td>Middle Name</td>
+        <td><label for="middle_name"></label>
+        <input name="middle_name" type="text" id="middle_name" size="50" maxlength="30" /></td>
+      </tr>
+      <tr>
+        <td>*Last Name</td>
+        <td><label for="last_name"></label>
+        <input name="last_name" type="text" id="last_name" size="50" maxlength="30" /></td>
+      </tr>
+      <tr>
+        <td>Suffix</td>
+        <td><label for="suffix"></label>
+          <select name="suffix" id="suffix">
+            <option selected="selected"></option>
+            <option>Jr.</option>
+            <option>Sr.</option>
+            <option>II</option>
+            <option>III</option>
+            <option>IV</option>
+            <option>V</option>
+            <option>VI</option>
+            <option>VII</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td>*Street Address 1</td>
+        <td><label for="street1">
+          <input name="street1" type="text" id="street1" size="70" maxlength="80" />
+        </label></td>
+      </tr>
+      <tr>
+        <td>Street Address 2 </td>
+        <td><label for="street2"></label>
+        <input name="street2" type="text" id="street2" size="70" maxlength="80" /></td>
+      </tr>
+      <tr>
+        <td>City</td>
+        <td><label for="City"></label>
+        <input name="City" type="text" id="City" size="50" maxlength="30" /></td>
+      </tr>
+      <tr>
+        <td>State</td>
+        <td><label for="state"></label>
+        <input name="state" type="text" id="state" size="5" maxlength="2" /></td>
+      </tr>
+      <tr>
+        <td>Zip Code</td>
+        <td><label for="zip_code"></label>
+        <input name="zip_code" type="text" id="zip_code" size="15" maxlength="5" /></td>
+      </tr>
+      <tr>
+        <td>Phone Number</td>
+        <td><label for="phone_number"></label>
+        <input name="phone_number" type="text" id="phone_number" size="30" maxlength="10" /></td>
+      </tr>
+      <tr>
+        <td>Email Address</td>
+        <td><label for="email"></label>
+        <input name="email" type="text" id="email" size="45" maxlength="30" /></td>
+      </tr>
+    </table>
+    <br />
+    <table width="784" border="0" align="center">
+      <tr>
+        <td width="332">What kind of membership are you interested in?</td>
+        <td width="442"><p>
+          <label>
+            <input type="radio" name="membership" value="Individual" id="membership_0" />
+            Individual</label>
+          <br />
+          <label>
+            <input type="radio" name="membership" value="Family" id="membership_1" />
+            Family</label>
+          <br />
+          <label>
+            <input type="radio" name="membership" value="Temporary" id="membership_2" />
+            Temporary</label>
+          <br />
+        </p></td>
+      </tr>
+    </table>
+    <br />
+    <br />
+  </form>
+  <p>    <br />
+    <br />
+  </p>
+  
+  <h3>Individual memberships</h3>
+  <p><i>You must be eighteen or older to qualify for an individual
+    membership.</i></p>
+  <ul>
+    <li><b>Gold</b>: Full access to the club and access to special
+      Gold Member areas.</li>
+    <li><b>Full</b>: Full access to the club during all open hours.</li>
+    <li><b>Weekdays</b>: A low-cost option that allows you full
+      access to the club from 10 a.m. to 3 p.m., Monday through
+      Friday.</li>
+    <li><b>Evenings</b>: A discount program, allowing
+      you access to the club from 5 p.m. to 10 p.m. every day
+      of the week.</li>
+    <li><b>Early Bird</b>: A discount program, allowing
+      you access to the club from 5 a.m. to 8 a.m., every day
+      of the week.</li>
+    <li><b>Weekends</b>: Enjoy the club on Saturday and Sunday. Perfect
+      for <i>weekend warriors</i>.</li>
+    <li><b>Seniors</b>: We provide special membership rates for individual
+      seniors.</li>
+    </ul> 
+  
+  
+  <h3>Family memberships</h3>
+  <ul>
+    <li><b>With child care</b>: This option is best for families 
+      who plan to use the children's play room, which is available 
+      for children ages 6 weeks to 12 years. The play room is open every day.</li>
+    <li><b>Without child care</b>: Save a little on your membership 
+      if your family won't need access to the play room.</li>
+    <li><b>Couples</b>: Memberships for married couples or domestic
+      partners. Pick up a membership form for specific rules regarding
+      eligibility.</li>
+    <li><b>Seniors</b>: We provide special membership rates for senior
+      couples.</li>
+    </ul>
+  
+  
+  <h3>Temporary memberships</h3>
+  <ul>
+    <li><b>Monthly</b>: For our long-term visitors this membership provides 
+      access to the club for one month.</li>
+    <li><b>Weekly</b>: For short-time visits, this membership provides one
+      week of access to the club.</li>
+    <li><b>Daily</b>: A daily pass to the club and all of its
+      facilities.</li>
+    <li><b>Punch cards</b>: Our punch cards allow guests complete access to 
+      the Club (except child care facilities) for a specific number of full days. 
+      Punch cards make great gifts and are available for 5, 10, and 20 
+      visits.</li>
+    <li><b>Special events</b>: Plan your parties and special work outings at
+      the Diamond Health Club. Our onsite coordinator can meet
+      your every need.</li>
+    </ul>
+  
+
+  <div class="centering" id="footer">
+    <b>Diamond Health Club &#9830;
+     4317 Alvin Way &#9830;
+     Boise, ID 83701 &#9830;
+     (208) 555-4398</b>
+    <br />
+    <i>
+      Your Year-Round Source for Fun Family Health
+     </i>
+     <p><a href="#top">Back to the Top of Page</a></p>
+    </div>
+  </div>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+
+</body>
+
+</html>

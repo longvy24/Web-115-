@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Nickbass Lessons - Slapping da Bass!</title>
+<!-- TemplateEndEditable -->
+<link href="../assets/styles.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<script src="../../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="../../SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="container">
+<div class="header"><img src="../assets/nickBass2.jpg" width="960" height="200" alt="banner" /><br />
+  <!-- TemplateBeginEditable name="menu" -->  
+  <ul id="MenuBar1" class="MenuBarHorizontal">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../pages/About Me.html">About </a></li>
+    <li><a href="../pages/Services.html">Services</a></li>
+    <li><a href="../pages/Videos.html" class="MenuBarItemSubmenu">Videos/Music</a>
+      <ul>
+        <li><a href="../pages/Videos.html#artist">Artist</a></li>
+        <li><a href="../pages/Videos.html#originals">Originals</a></li>
+      </ul>
+    </li>
+    <li><a href="../pages/Mission Statement.html">Mission Statement</a></li>
+    <li><a href="../pages/Transcription.html">Transcription</a></li>
+    <li><a href="../pages/My Setup.html">My Setup/Gear</a></li>
+    <li><a href="../pages/Contact ME!.html">Contact ME!</a></li>
+  </ul>
+  <!-- TemplateEndEditable --></div>
+
+<h1 align="center" class="heading"><br />
+  <br />
+  <!-- TemplateBeginEditable name="header" -->UNDER CONSTRUCTION!<!-- TemplateEndEditable --><br />
+  <br />
+  </h1>
+<!-- TemplateBeginEditable name="content" --><span class="paragraph">content</span><!-- TemplateEndEditable --><br />
+<br />
+<div class="footer">Copyright Nick Bass Lessons 2013</div>
+</div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"../../SpryAssets/SpryMenuBarDownHover.gif", imgRight:"../../SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>
